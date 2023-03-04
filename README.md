@@ -92,7 +92,7 @@ locals {
 }
 
 module "vpcs" {
-  source  = "jq1tiered-vpc-ng/aws"
+  source  = "jq1/tiered-vpc-ng/aws"
   version = "1.0.0"
 
   for_each = { for t in local.tiered_vpcs : t.name => t }
