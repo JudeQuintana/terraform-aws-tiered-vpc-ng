@@ -1,5 +1,8 @@
 /*
 * # Tiered VPC-NG
+* `v1.0.4`
+* - support for dual stack isolated subnets
+*
 * `v1.0.3`
 * - support for IPv6 secondary cidrs.
 * - minor internal changes.
